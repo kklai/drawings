@@ -4,3 +4,15 @@
 	background-size: 800px;
 	height: 100%;
 }
+
+.corgi > * {
+	position: absolute;
+}
+
+.corgi-body {
+	width: 300px;
+	height: 100px;
+	background-color: #884b14;
+	top: 300px;
+	left: 100px;
+}
