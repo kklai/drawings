@@ -36,3 +36,35 @@ body {
 	border-bottom-left-radius: 30px;
 	z-index: 1;
 }
+
+.corgi-legs {
+	width: 50px;
+	height: 80px;
+	background-color: #f3fcec;
+	top: 300px;
+}
+
+.corgi-legs.left {
+	left: 60px;
+}
+
+.corgi-legs.right {
+	left: 280px;
+}
+
+.corgi-paws {
+	border-radius: 100%;
+	width: 60px;
+	height: 20px;
+	background-color: #f3fcec;
+	box-shadow: 0px 3px 0px 0px rgba(0,0,0,.3);
+	top: 370px;
+}
+
+.corgi-paws.left {
+	left: 60px;
+}
+
+.corgi-paws.right {
+	left: 280px;
+}
