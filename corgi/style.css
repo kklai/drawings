@@ -86,18 +86,18 @@ body {
 .corgi-inner-ears {
 	width: 0;
 	height: 0;
-	top: 110px;
+	top: 120px;
 	text-indent: -9999px;
-	border-bottom: 50px solid #f3fcec;
+	border-bottom: 35px solid #f3fcec;
 }
 
 .corgi-inner-ears.left {
 	right: 166px;
 	border-left: 20px solid transparent;
 	border-right: 20px solid transparent;
-	transform: rotate(-30deg);
-	-ms-transform: rotate(-30deg); /* IE 9 */
-	-webkit-transform: rotate(-30deg); /* Safari and Chrome */
+	transform: rotate(-35deg);
+	-ms-transform: rotate(-35deg); /* IE 9 */
+	-webkit-transform: rotate(-35deg); /* Safari and Chrome */
 }
 
 
@@ -174,8 +174,23 @@ body {
 	left: 60px;
 }
 
+.corgi-legs.left-back {
+	left: 100px;
+	transform: rotate(-30deg);
+	-ms-transform: rotate(-30deg); /* IE 9 */
+	-webkit-transform: rotate(-30deg); /* Safari and Chrome */
+}
+
 .corgi-legs.right {
 	left: 280px;
+}
+
+.corgi-legs.right-back {
+	top: 280px;
+	left: 320px;
+	transform: rotate(-30deg);
+	-ms-transform: rotate(-30deg); /* IE 9 */
+	-webkit-transform: rotate(-30deg); /* Safari and Chrome */
 }
 
 .corgi-paws {
@@ -191,6 +206,22 @@ body {
 	left: 60px;
 }
 
+.corgi-paws.left-back {
+	top: 360px;
+	left: 120px;
+	transform: rotate(-30deg);
+	-ms-transform: rotate(-30deg); /* IE 9 */
+	-webkit-transform: rotate(-30deg); /* Safari and Chrome */
+}
+
 .corgi-paws.right {
 	left: 280px;
+}
+
+.corgi-paws.right-back {
+	top: 346px;
+	left: 340px;
+	transform: rotate(-30deg);
+	-ms-transform: rotate(-30deg); /* IE 9 */
+	-webkit-transform: rotate(-30deg); /* Safari and Chrome */
 }
