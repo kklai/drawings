@@ -26,6 +26,7 @@ body {
 	top: 200px;
 	left: 60px;
 	border-top-left-radius: 30px;
+	border-bottom-right-radius: 30px;
 	z-index: 2;
 }
 
@@ -82,6 +83,7 @@ body {
 	top: 100px;
 	text-indent: -9999px;
 	border-bottom: 65px solid #884b14;
+	border-top-right-radius: 100px;
 }
 
 .corgi-ears.left {
@@ -220,7 +222,7 @@ body {
 	width: 50px;
 	height: 80px;
 	background-color: #f3fcec;
-	top: 300px;
+	top: 285px;
 }
 
 .corgi-legs.left {
@@ -252,17 +254,17 @@ body {
 	height: 20px;
 	background-color: #f3fcec;
 	box-shadow: 0px 3px 0px 0px rgba(0,0,0,.3);
-	top: 370px;
+	top: 360px;
 }
 
 .corgi-paws.left {
-	left: 60px;
+	left: 58px;
 }
 
 .corgi-paws.left-back {
-	top: 360px;
+	top: 350px;
 	left: 120px;
-	transform: rotate(-30deg);
+	transform: ro	tate(-30deg);
 	-ms-transform: rotate(-30deg); /* IE 9 */
 	-webkit-transform: rotate(-30deg); /* Safari and Chrome */
 }
