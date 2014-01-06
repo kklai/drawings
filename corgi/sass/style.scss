@@ -1,3 +1,6 @@
+$corgi-brown: #884b14;
+$corgi-white: #f3fcec;
+
 body {
 	background-color: #c7d3bd;
 }
@@ -22,7 +25,7 @@ body {
 }
 
 .corgi-body.top {
-	background-color: #884b14;
+	background-color: $corgi-brown;
 	top: 200px;
 	left: 60px;
 	border-top-left-radius: 30px;
@@ -31,7 +34,7 @@ body {
 }
 
 .corgi-body.bottom {
-	background-color: #f3fcec;
+	background-color: $corgi-white;
 	top: 230px;
 	left: 60px;
 	border-bottom-left-radius: 30px;
@@ -41,7 +44,7 @@ body {
 .corgi-neck {
 	width: 50px;
 	height: 100px;
-	background-color: #f3fcec;
+	background-color: $corgi-white;
 	top: 240px;
 	right: 150px;
 	border-bottom-right-radius: 100px;
@@ -51,7 +54,7 @@ body {
 	width: 150px;
 	height: 150px;
 	border-radius: 100%;
-	background-color: #884b14;
+	background-color: $corgi-brown;
 	top: 130px;
 	right: 55px;
 	/*opacity: 0.5;*/
@@ -59,7 +62,7 @@ body {
 }
 
 .corgi-head-one {
-	background-color: #f3fcec;
+	background-color: $corgi-white;
 	height: 80px;
 	width: 20px;
 	top: 130px;
@@ -68,7 +71,7 @@ body {
 }
 
 .corgi-head-two {
-	background-color: #f3fcec;
+	background-color: $corgi-white;
 	height: 80px;
 	width: 130px;
 	border-radius: 100%;
@@ -82,7 +85,7 @@ body {
 	height: 0;
 	top: 100px;
 	text-indent: -9999px;
-	border-bottom: 65px solid #884b14;
+	border-bottom: 65px solid $corgi-brown;
 	border-top-right-radius: 100px;
 }
 
@@ -109,7 +112,7 @@ body {
 	height: 0;
 	top: 125px;
 	text-indent: -9999px;
-	border-bottom: 35px solid #f3fcec;
+	border-bottom: 35px solid $corgi-white;
 }
 
 .corgi-inner-ears.left {
@@ -149,7 +152,7 @@ body {
 }
 
 .corgi-eyeballs {
-	background-color: #f3fcec;
+	background-color: $corgi-white;
 	border-radius: 100%;
 	z-index: 200;
 	width: 8px;
@@ -221,7 +224,7 @@ body {
 .corgi-legs {
 	width: 50px;
 	height: 60px;
-	background-color: #f3fcec;
+	background-color: $corgi-white;
 	top: 285px;
 }
 
@@ -252,7 +255,7 @@ body {
 	border-radius: 100%;
 	width: 60px;
 	height: 20px;
-	background-color: #f3fcec;
+	background-color: $corgi-white;
 	box-shadow: 0px 3px 0px 0px rgba(0,0,0,.3);
 	top: 340px;
 }
