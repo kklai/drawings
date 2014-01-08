@@ -41,6 +41,48 @@ body {
 	.rounded-corners(100px 50px);
 }
 
+.dinosaur-eyes {
+	width: 20px;
+	height: 20px;
+	background-color: #fff;
+	top: 20px;
+	z-index: 100;
+	.rounded-corners(100%);
+	&.left {
+		left: 15px;
+	}
+	&.right {
+		left: 40px;
+	}
+}
+
+.dinosaur-eyeballs {
+	width: 10px;
+	height: 10px;
+	background-color: #000;
+	top: 20px;
+	z-index: 101;
+	.rounded-corners(100%);
+	&.left {
+		left: 15px;
+	}
+	&.right {
+		left: 40px;
+	}
+}
+
+.dinosaur-mouth {
+	height:18px;
+	width:40px;
+	border-radius: 0 0 90px 90px;
+	-moz-border-radius: 0 0 90px 90px;
+	-webkit-border-radius: 0 0 90px 90px;
+	background:#fff;
+	top: 50px;
+	left: 15px;
+	z-index: 100;
+}
+
 .dinosaur-neck {
 	width: 35px;
 	height: 85px;
