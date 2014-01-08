@@ -1,0 +1,161 @@
+@green: #567627;
+
+.rounded-corners (@radius: 5px) {
+  -webkit-border-radius: @radius;
+  -moz-border-radius: @radius;
+  -ms-border-radius: @radius;
+  -o-border-radius: @radius;
+  border-radius: @radius;
+}
+
+.rotate (@deg) {
+	-webkit-transform: rotate(@deg);
+	-moz-transform: 	 rotate(@deg);
+	-ms-transform: 		 rotate(@deg);
+	-o-transform: 		 rotate(@deg);
+}
+
+body {
+	background-color: #9bba89;
+}
+
+.dinosaur {
+	// background-image: url('dinosaur.png');
+	background-repeat: no-repeat;
+	background-size: 400px;
+	margin: 0 auto;
+	position: relative;
+	margin-top: 100px;
+	height: 100%;
+	width: 400px;
+}
+
+.dinosaur > * {
+	position: absolute;
+}
+
+.dinosaur-head {
+	width: 100px;
+	height: 70px;
+	background-color: @green;
+	.rounded-corners(100px 50px);
+}
+
+.dinosaur-neck {
+	width: 35px;
+	height: 85px;
+	background-color: @green;
+	top: 25px;
+	left: 75px;
+	.rotate(-25deg);
+}
+
+.dinosaur-body {
+	width: 200px;
+	height: 60px;
+	background-color: @green;
+	top: 60px;
+	left: 70px;
+	.rounded-corners(0 30px 30px 30px);
+}
+
+.dinosaur-body-bottom {
+	width: 200px;
+	height: 70px;
+	background-color: @green;
+	top: 80px;
+	left: 75px;
+	.rounded-corners(50%);
+}
+
+.dinosaur-tail {
+	width: 0;
+	height: 0;
+	text-indent: -9999px;
+	border-top: 20px solid transparent;
+	border-bottom: 20px solid transparent;
+	border-left: 130px solid @green;
+	top: 100px;
+	left: 250px;
+	.rotate(15deg);
+}
+
+.dinosaur-arms {
+	width: 50px;
+	height: 12px;
+	background-color: @green;
+	&.left {
+		top: 120px;
+		left: 60px;
+		.rotate(-50deg);
+	}
+	&.right {
+		top: 105px;
+		left: 40px;
+		.rotate(-25deg);
+	}
+}
+
+.dinosaur-hands {
+	width: 20px;
+	height: 15px;
+	background-color: @green;
+	.rounded-corners(100%);
+	&.left {
+		top: 135px;
+		left: 60px;
+	}
+	&.right {
+		top: 115px;
+		left: 30px;
+	}
+}
+
+.dinosaur-thighs {
+	width: 0;
+	height: 0;
+	text-indent: -9999px;
+	border-top: 50px solid @green;
+	border-right: 20px solid transparent;
+	border-left: 20px solid transparent;
+	&.left {
+		top: 130px;
+		left: 130px;
+	}
+	&.right {
+		top: 120px;
+		left: 180px;
+		.rotate(-25deg);
+	}
+}
+
+.dinosaur-legs {
+	height: 50px;
+	background-color: @green;
+	&.left {
+		width: 20px;
+		top: 150px;
+		left: 140px;
+	}
+	&.right {
+		width: 14px;
+		top: 150px;
+		left: 207px;
+		.rotate(-25deg);
+	}
+}
+
+.dinosaur-feet {
+	width: 40px;
+	height: 20px;
+	background-color: @green;
+	top: 194px;
+	.rounded-corners(50px 50px 0 );
+	&.left {
+		left: 122px;
+	}
+	&.right {
+		left: 200px;
+		.rotate(-25deg);
+	}
+}
