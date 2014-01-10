@@ -1,4 +1,5 @@
 @green: #567627;
+@light-green: #79b028;
 
 .rounded-corners (@radius: 5px) {
   -webkit-border-radius: @radius;
@@ -71,16 +72,29 @@ body {
 	}
 }
 
+.dinosaur-nose {
+	height: 4px;
+	width: 6px;
+	background-color: #000;
+	top: 45px;
+	.rounded-corners(50%);
+	&.left {
+		left: 20px;
+	}	
+	&.right {
+		left: 30px;
+	}
+}
+
 .dinosaur-mouth {
-	height:18px;
-	width:40px;
-	border-radius: 0 0 90px 90px;
-	-moz-border-radius: 0 0 90px 90px;
-	-webkit-border-radius: 0 0 90px 90px;
-	background:#fff;
-	top: 50px;
-	left: 15px;
-	z-index: 100;
+	height: 18px;
+ 	width: 40px;
+ 	border: 2px solid #000;
+ 	border-top: none;
+ 	z-index: 200;
+ 	top: 45px;
+ 	left: 8px;
+ 	.rounded-corners(0 0 90px 90px);
 }
 
 .dinosaur-neck {
@@ -98,6 +112,7 @@ body {
 	background-color: @green;
 	top: 60px;
 	left: 70px;
+	z-index: 101;
 	.rounded-corners(0 30px 30px 30px);
 }
 
@@ -107,6 +122,27 @@ body {
 	background-color: @green;
 	top: 80px;
 	left: 75px;
+	z-index: 100;
+	.rounded-corners(50%);
+}
+
+.dinosaur-body-cover {
+	width: 200px;
+	height: 40px;
+	background-color: @green;
+	top: 80px;
+	left: 75px;
+	z-index: 102;
+	.rounded-corners(0 20px 0 5px);
+}
+
+.dinosaur-body-below {
+	width: 200px;
+	height: 70px;
+	background-color: @light-green;
+	top: 80px;
+	left: 75px;
+	z-index: 101;
 	.rounded-corners(50%);
 }
 
