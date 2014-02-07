@@ -7,6 +7,7 @@
 		.row {
 			max-width: 960px;
 			margin: 0 auto;
+			margin-top: 30px;
 		}
 		.box {
 			width: 30%;
@@ -18,13 +19,26 @@
 			-moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
 			box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
 		}
+		@media screen and (max-width: 960px) {
+		}
+		@media screen and (max-width: 768px) {
+			.box {
+				width: 80%;
+				margin-bottom: 20px;
+				margin-left: 20px;
+			}
+		}
+		@media screen and (max-width: 500px) {
+		}
 	</style>
 </head>
 <body>
+	<div class="container-fluid">
 	<div class="row">
 		<div class="box col-md-1">DOGGY</div>
 	  <div class="box col-md-1">DINOSAUR</div>
 	  <div class="box col-md-1">XXXX</div>
+	</div>
 	</div>
 </body>
 </html>
